@@ -1,0 +1,13 @@
+sqlite3 aFile.db "create table aTable(field1 int); drop table aTable;"
+create table maindata (country  text, year  integer, source  text, indic  text, indic_name  text, dimension  text, subgroup  text, r  real, r_lower  real, r_upper  real, se  real, pop  integer, popshare  real, N  integer, sii  real, siise  real, cix  real, cixse  real, flag  text, indic_category  text, indic_category_name  text, recent  integer, recentMICS  integer, recentDHS  integer, coverage  integer, coverage_children  integer, coverage_maternal  integer, coverage_reproductive  integer, outcome_children  integer, iso3  text, uncode  integer, whocode  integer, whoreg6  text, whoreg6_name  text, mdgreg  text, mdgreg1  text, wbincome2014_4cat  text, wbincome2014_2cat  text, nsubgroups  integer, rankable  integer, maxoptimum integer);
+.separator "\t"
+.import HEM_Toolkit_data.csv maindata
+
+create table nationaldata (country  text, year  integer, source  text, indic  text, indic_name  text, dimension  text, subgroup  text, r  real, r_lower  real, r_upper  real, se  real, pop  integer, popshare  real, N  integer, sii  real, siise  real, cix  real, cixse  real, flag  text, indic_category  text, indic_category_name  text, recent  integer, recentMICS  integer, recentDHS  integer, coverage  integer, coverage_children  integer, coverage_maternal  integer, coverage_reproductive  integer, outcome_children  integer, iso3  text, uncode  integer, whocode  integer, whoreg6  text, whoreg6_name  text, mdgreg  text, mdgreg1  text, wbincome2014_4cat  text, wbincome2014_2cat  text, nsubgroups  integer, rankable  integer, maxoptimum integer);
+.separator "\t"
+.import HEM_Toolkit_national.csv nationaldata
+
+
+### Create a table of the country names
+create table aTable(field1 int); CREATE TABLE country_names(names text, ccode text);
+INSERT INTO country_names SELECT DISTINCT country, iso3  FROM maindata;

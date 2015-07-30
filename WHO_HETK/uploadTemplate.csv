@@ -1,0 +1,27 @@
+country,year,source,indic,dimension,subgroup,estimate,se,pop,flag,iso3,rankable,order,maxoptimum
+country_A,2000,survey_A,indicator_A,Economic status,Quintile 1 (poorest),11.1,1.1,111,,aaa,1,1,1
+country_A,2000,survey_A,indicator_A,Economic status,Quintile 2,11.1,1.1,111,,aaa,1,2,1
+country_A,2000,survey_A,indicator_A,Economic status,Quintile 3,11.1,1.1,111,,aaa,1,3,1
+country_A,2000,survey_A,indicator_A,Economic status,Quintile 4,11.1,1.1,111,,aaa,1,4,1
+country_A,2000,survey_A,indicator_A,Economic status,Quintile 5 (richest),11.1,1.1,111,,aaa,1,5,1
+country_A,2000,survey_A,indicator_A,Mother's education,No education,,,111,Not reported - Estimate is based on fewer than 25 cases.,aaa,1,1,1
+country_A,2000,survey_A,indicator_A,Mother's education,Primary school,11.1,1.1,111,Attention - Estimate is based on 25-49 cases.,aaa,1,2,1
+country_A,2000,survey_A,indicator_A,Mother's education,Secondary school+,11.1,1.1,111,,aaa,1,3,1
+country_A,2000,survey_A,indicator_A,National average,National average,11.1,1.1,111,,aaa,0,0,1
+country_A,2000,survey_A,indicator_A,Place of residence,Rural,11.1,1.1,111,,aaa,0,0,1
+country_A,2000,survey_A,indicator_A,Place of residence,Urban,11.1,1.1,111,,aaa,0,0,1
+country_A,2000,survey_A,indicator_A,Sex,Female,11.1,1.1,111,,aaa,0,0,1
+country_A,2000,survey_A,indicator_A,Sex,Male,11.1,1.1,111,,aaa,0,0,1
+country_A,2010,survey_B,indicator_A,Economic status,Quintile 1 (poorest),11.1,1.1,111,,aaa,1,1,1
+country_A,2010,survey_B,indicator_A,Economic status,Quintile 2,11.1,1.1,111,,aaa,1,2,1
+country_A,2010,survey_B,indicator_A,Economic status,Quintile 3,11.1,1.1,111,,aaa,1,3,1
+country_A,2010,survey_B,indicator_A,Economic status,Quintile 4,11.1,1.1,111,,aaa,1,4,1
+country_A,2010,survey_B,indicator_A,Economic status,Quintile 5 (richest),11.1,1.1,111,,aaa,1,5,1
+country_A,2010,survey_B,indicator_A,Mother's education,No education,,,111,Not reported - Estimate is based on fewer than 25 cases.,aaa,1,1,1
+country_A,2010,survey_B,indicator_A,Mother's education,Primary school,11.1,1.1,111,,aaa,1,2,1
+country_A,2010,survey_B,indicator_A,Mother's education,Secondary school+,11.1,1.1,111,,aaa,1,3,1
+country_A,2010,survey_B,indicator_A,National average,National average,11.1,1.1,111,,aaa,0,0,1
+country_A,2010,survey_B,indicator_A,Place of residence,Rural,11.1,1.1,111,,aaa,0,0,1
+country_A,2010,survey_B,indicator_A,Place of residence,Urban,11.1,1.1,111,,aaa,0,0,1
+country_A,2010,survey_B,indicator_A,Sex,Female,11.1,1.1,111,,aaa,0,0,1
+country_A,2010,survey_B,indicator_A,Sex,Male,11.1,1.1,111,,aaa,0,0,1
